@@ -11,7 +11,7 @@ const Visit = () => {
 
   if (submitted) {
     return (
-      <div className="container" style={{ textAlign: 'center', paddingTop: '100px' }}>
+      <div className="container nature-bg" style={{ textAlign: 'center', paddingTop: '100px' }}>
         <h1 style={{ color: 'var(--primary)', marginBottom: '1rem', fontSize: '3rem' }}>Request Submitted</h1>
         <p style={{ fontSize: '1.2rem', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
           Thank you for your interest in visiting Anandwan. Your request is pending approval. We will contact you soon with pre-visit guidelines.
@@ -22,7 +22,7 @@ const Visit = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container nature-bg">
       <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
         <h1 className="section-title" style={{ marginBottom: '1rem' }}>Visit Anandwan</h1>
         <p style={{ maxWidth: '700px', margin: '0 auto', fontSize: '1.1rem', color: '#555' }}>
