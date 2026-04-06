@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
   return (
-    <div className="container">
+    <div className="container nature-bg">
       <h1 className="section-title" style={{ textAlign: 'left' }}>My Dashboard</h1>
       
       <div className="grid-3" style={{ marginBottom: '3rem' }}>
