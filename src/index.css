@@ -25,8 +25,13 @@
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nature-bg {
   position: relative;
+  isolation: isolate;
 }
 
 .nature-bg::before {
@@ -36,7 +41,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(249, 249, 249, 0.5), rgba(249, 249, 249, 0.5)),
+  background: linear-gradient(rgba(249, 249, 249, 0.4), rgba(249, 249, 249, 0.4)),
     url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1920');
   background-size: cover;
   background-position: center;
@@ -127,8 +132,8 @@ button {
   padding: 12px 24px;
   border-radius: var(--radius-sm);
   font-weight: 500;
-  font-size: 0.95rem;
-  letter-spacing: 1px;
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
@@ -138,13 +143,13 @@ button {
 
 .btn-primary {
   background-color: var(--primary);
-  color: #000;
+  color: #fff;
 }
 
 .btn-primary:hover {
   background-color: var(--primary-light);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 15px rgba(176, 141, 26, 0.3);
 }
 
 .btn-secondary {
@@ -155,13 +160,13 @@ button {
 
 .btn-secondary:hover {
   background-color: var(--primary);
-  color: #000;
+  color: #fff;
 }
 
 .btn-outline {
   background-color: transparent;
-  border: 1px solid var(--text-muted);
-  color: var(--text-main);
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
 }
 
 .btn-outline:hover {
@@ -201,7 +206,7 @@ button {
 }
 
 .nav-links a {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--text-muted);
@@ -287,7 +292,7 @@ button {
   gap: 2rem;
 }
 
-/* --- CARDS (DOCUMENTARY STYLE) --- */
+/* --- CARDS --- */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border-light);
@@ -296,6 +301,24 @@ button {
   flex-direction: column;
   overflow: hidden;
   transition: var(--transition);
+}
+
+.nature-bg .card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.expandable-card {
+  margin-bottom: 2rem;
+  border-radius: var(--radius-md);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expandable-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 }
 
 .card:hover {
@@ -468,5 +491,17 @@ button {
 
   .nav-links {
     display: none;
+  }
+
+  .expandable-card {
+    flex-direction: column !important;
+  }
+
+  .expandable-card .img-wrapper {
+    width: 100% !important;
+  }
+
+  .expandable-card .card-content {
+    width: 100% !important;
   }
 }
