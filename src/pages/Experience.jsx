@@ -21,7 +21,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="container" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
+    <div className="container nature-bg" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
       <div className="sim-container" style={{ width: '100%', border: '1px solid var(--border-light)' }}>
         
         {step === 0 && (
