@@ -136,21 +136,21 @@ const Home = () => {
             <img src="/images/school.png" alt="Schools" className="card-img" style={{ height: '150px' }} />
             <div className="card-content" style={{ padding: '1rem', textAlign: 'center' }}>
               <h3 style={{ color: 'var(--primary)' }}>Schools & Education</h3>
-              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Learning centers for visual and hearing impaired.</p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Empowering minds through inclusive and accessible education.</p>
             </div>
           </Link>
           <Link to="/inside" className="card" style={{ textDecoration: 'none' }}>
             <img src="images/healthcare.jpg" alt="Hospitals" className="card-img" style={{ height: '150px' }} />
             <div className="card-content" style={{ padding: '1rem', textAlign: 'center' }}>
               <h3 style={{ color: 'var(--primary)' }}>Healthcare</h3>
-              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Specialized care for leprosy patients and beyond.</p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Compassionate healthcare restoring dignity and well-being.</p>
             </div>
           </Link>
           <Link to="/inside" className="card" style={{ textDecoration: 'none' }}>
             <img src="images/artifact1.png" alt="Industries" className="card-img" style={{ height: '150px' }} />
             <div className="card-content" style={{ padding: '1rem', textAlign: 'center' }}>
               <h3 style={{ color: 'var(--primary)' }}>Community Industries</h3>
-              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Handicrafts, agriculture, and self-reliance.</p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Building self-reliance through skills, creativity, and work.</p>
             </div>
           </Link>
         </div>
