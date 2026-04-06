@@ -11,7 +11,7 @@ const ShareStory = () => {
 
   if (submitted) {
     return (
-      <div className="container" style={{ textAlign: 'center', paddingTop: '100px' }}>
+      <div className="container nature-bg" style={{ textAlign: 'center', paddingTop: '100px' }}>
         <h1 style={{ color: 'var(--primary)', marginBottom: '1rem', fontSize: '3rem' }}>Thank You!</h1>
         <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>Your living story has been added to our archives. It will soon be part of the Memory Wall.</p>
         <button className="btn btn-primary" onClick={() => setSubmitted(false)}>Share Another Story</button>
@@ -20,7 +20,7 @@ const ShareStory = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container nature-bg">
       <h1 className="section-title">Share Your Experience / Feedback</h1>
       
       <div className="living-form" style={{ maxWidth: '800px', margin: '0 auto' }}>
