@@ -41,7 +41,7 @@ const StoryCard = ({ story }) => {
 
   return (
     <div className="card">
-      <img src={story.image} alt={story.title} className="card-img" />
+      <img src={story.images[0]} alt={story.title} className="card-img" />
       <div className="card-content">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
           <h3 className="card-title" style={{ margin: 0 }}>{isUiTranslating ? "..." : displayTitle}</h3>
