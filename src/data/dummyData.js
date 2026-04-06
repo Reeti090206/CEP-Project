@@ -1,3 +1,12 @@
+export const memoryWallData = [
+  { id: 1, img: "/images/artifact1.png" },
+  { id: 2, img: "/images/artifact2.png" },
+  { id: 3, img: "/images/community.png" },
+  { id: 4, img: "/images/healthcare.jpg" },
+  { id: 5, img: "/images/rangmanch.png" },
+  { id: 6, img: "/images/school.png" }
+];
+
 export const stories = [
   {
     id: 1,
@@ -8,6 +17,13 @@ export const stories = [
     fullStoryHindi: "सुनीता ताई ने अपनी बीस वर्ष की उम्र में बीमारी के कारण अपनी दृष्टि खो दी थी और वे पूरी तरह दूसरों पर निर्भर हो गई थीं। आनंदवन आने के बाद उन्हें पुनर्वास के तहत हथकरघा इकाई से जोड़ा गया। शुरुआत में झिझक के बावजूद उन्होंने स्पर्श आधारित बुनाई सीखी और धीरे-धीरे एक कुशल कारीगर बन गईं। आज वे उच्च गुणवत्ता वाली साड़ियाँ बनाने में योगदान देती हैं जो महाराष्ट्र भर में बेची जाती हैं। उनकी कहानी यह दर्शाती है कि सम्मानपूर्ण जीवन मेहनत से बनता है, दान से नहीं।",
     fullStoryMarathi: "सुनीता ताईंनी वीसाव्या वर्षी आजारामुळे आपली दृष्टी गमावली आणि त्या इतरांवर अवलंबून राहिल्या. आनंदवनात आल्यानंतर त्यांना पुनर्वसनासाठी हातमाग विभागात काम करण्याची संधी मिळाली. सुरुवातीला संकोच असला तरी त्यांनी स्पर्शाच्या आधारे विणकाम शिकले आणि हळूहळू कुशल कारागीर बनल्या. आज त्या उत्कृष्ट साड्या तयार करण्यात योगदान देतात ज्या महाराष्ट्रभर विकल्या जातात. त्यांचा प्रवास दाखवतो की सन्मानाने जगणे मेहनतीतून येते.",
     image: "https://images.unsplash.com/photo-1596773516568-7690186fc9cf?auto=format&fit=crop&q=80&w=800",
+    title: "The Looming Joy: Artisan Work",
+    personName: "Sunita Devi",
+    shortDescription: "Finding voice and independence through the handloom center.",
+    fullStory: "Sunita lost her vision at a young age. At Anandwan, she was introduced to the handloom weaving center. What started as rehabilitation became her passion. Her intricate designs are now sold across India, proving that disability is not an inability.",
+    fullStoryHindi: "सुनीता ने कम उम्र में ही अपनी आंखों की रोशनी खो दी थी। आनंदवन में, उन्हें हथकरघा बुनाई केंद्र से परिचित कराया गया। जो पुनर्वास के रूप में शुरू हुआ वह उनका जुनून बन गया। उनके जटिल डिजाइन अब पूरे भारत में बेचे जाते हैं, जो यह साबित करते हैं कि विकलांगता कोई अक्षमता नहीं है।",
+    fullStoryMarathi: "सुनीताने लहान वयातच तिची दृष्टी गमावली. आनंदवनमध्ये, तिला हातमाग विणकाम केंद्राची ओळख झाली. जे पुनर्वसन म्हणून सुरू झाले ते तिची आवड बनले. तिची गुंतागुंतीची रचना आता संपूर्ण भारतात विकली जाते, हे सिद्ध करते की अपंगत्व ही अक्षमता नाही.",
+    image: "/images/artifact2.png",
     category: "Artisan Work",
     year: "2023"
   },
@@ -20,6 +36,11 @@ export const stories = [
     fullStoryHindi: "स्वरानंदवन ऑर्केस्ट्रा आनंदवन की एक प्रसिद्ध सांस्कृतिक पहल है, जिसमें दृष्टिहीन, शारीरिक रूप से दिव्यांग और श्रवण बाधित कलाकार शामिल हैं। अपने संगीत के माध्यम से वे समाज की धारणाओं को चुनौती देते हैं। भारत भर में उनके कार्यक्रमों को सराहना मिली है। उनके लिए संगीत केवल कला नहीं, बल्कि आत्मविश्वास और पहचान का माध्यम है।",
     fullStoryMarathi: "स्वरानंदवन वाद्यवृंद हा आनंदवनातील एक प्रसिद्ध सांस्कृतिक उपक्रम आहे, ज्यामध्ये दृष्टिहीन, शारीरिकदृष्ट्या अपंग आणि श्रवणदोष असलेले कलाकार सहभागी आहेत. त्यांच्या सादरीकरणातून ते समाजातील समजुतींना आव्हान देतात. भारतभर त्यांच्या कार्यक्रमांना मोठी दाद मिळाली आहे. त्यांच्यासाठी संगीत हे केवळ कला नसून आत्मविश्वास आणि ओळख निर्माण करण्याचे माध्यम आहे.",
     image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800",
+    shortDescription: "A musical evening where differently-abled artists perform.",
+    fullStory: "The Swaranandwan orchestra is a unique musical group composed entirely of differently-abled residents. Through their performances, they spread a message of hope and joy. Last month's concert brought tears and standing ovations from visitors.",
+    fullStoryHindi: "स्वरानंदवन ऑर्केस्ट्रा एक अनूठा संगीत समूह है जो पूरी तरह से अलग-अलग रूप से सक्षम निवासियों से बना है। अपने प्रदर्शन के माध्यम से, वे आशा और खुशी का संदेश फैलाते हैं।",
+    fullStoryMarathi: "स्वरानंदवन वाद्यवृंद हा एक अनोखा संगीत गट आहे जो पूर्णपणे विविध-सक्षम रहिवाशांनी बनलेला आहे. त्यांच्या सादरीकरणातून ते आशा आणि आनंदाचा संदेश पसरवतात.",
+    image: "/images/rangmanch.png",
     category: "Music Events",
     year: "2024"
   },
@@ -32,6 +53,13 @@ export const stories = [
     fullStoryHindi: "आनंदवन का दृष्टिहीन छात्रों के लिए स्कूल समावेशी और गतिविधि-आधारित शिक्षा प्रदान करता है। यहाँ छात्र स्पर्श, ध्वनि और व्यावहारिक अनुभव के माध्यम से सीखते हैं। हाल ही में आयोजित विज्ञान प्रदर्शनी में ऐसे मॉडल प्रस्तुत किए गए जिन्हें बिना देखे समझा जा सकता था। इस पहल ने पारंपरिक सोच को चुनौती दी।",
     fullStoryMarathi: "आनंदवनातील दृष्टिहीन विद्यार्थ्यांसाठीची शाळा समावेशक आणि कृतीआधारित शिक्षण देते. येथे विद्यार्थी स्पर्श, ध्वनी आणि प्रत्यक्ष अनुभवातून शिकतात. नुकत्याच झालेल्या विज्ञान प्रदर्शनात स्पर्शातून समजणारी मॉडेल्स सादर करण्यात आली. या उपक्रमाने पारंपरिक शिक्षण पद्धतींना नवे रूप दिले.",
     image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=800",
+    title: "Learning and Growing: School Activities",
+    personName: "Anand Andh Vidyalaya",
+    shortDescription: "Children with visual impairments experiencing the joy of learning.",
+    fullStory: "The Anand Blind School provides holistic education. Recently, the students organized a science exhibition, making models that can be understood through touch, completely changing the perception of what is possible in inclusive education.",
+    fullStoryHindi: "आनंद अंध विद्यालय समग्र शिक्षा प्रदान करता है। हाल ही में, छात्रों ने एक विज्ञान प्रदर्शनी का आयोजन किया, जिसमें ऐसे मॉडल बनाए गए जिन्हें स्पर्श के माध्यम से समझा जा सके।",
+    fullStoryMarathi: "आनंद अंध विद्यालय सर्वांगीण शिक्षण देते. नुकतेच विद्यार्थ्यांनी एका विज्ञान प्रदर्शनाचे आयोजन केले होते, ज्यामध्ये स्पर्शाने समजतील अशी मॉडेल्स तयार केली होती.",
+    image: "/images/school.png",
     category: "School Activities",
     year: "2022"
   },
@@ -44,6 +72,13 @@ export const stories = [
     fullStoryHindi: "आनंदवन में स्वास्थ्य सेवाएँ केवल बीमारी का इलाज नहीं करतीं, बल्कि सम्मान भी लौटाती हैं। यहाँ मरीजों को चिकित्सा उपचार, फिजियोथेरेपी और मानसिक सहयोग दिया जाता है, जिससे वे आत्मविश्वास के साथ समाज में पुनः शामिल हो सकें।",
     fullStoryMarathi: "आनंदवनातील आरोग्यसेवा केवळ उपचारापुरती मर्यादित नसून रुग्णांचा सन्मान पुनर्संचयित करण्यावर भर देते. येथे वैद्यकीय उपचारांसोबत फिजिओथेरपी आणि मानसिक आधार दिला जातो, ज्यामुळे रुग्ण आत्मविश्वासाने समाजात पुन्हा सामील होतात.",
     image: "https://images.unsplash.com/photo-1519494026892-80ba3e5fd1ce?auto=format&fit=crop&q=80&w=800",
+    title: "Healing Hands: Hospital Care",
+    personName: "Dr. Vikas",
+    shortDescription: "Providing advanced care to leprosy patients with utmost dignity.",
+    fullStory: "Our leprosy care center isn't just about medicine; it's about restoring a sense of self-worth. Every patient here receives comprehensive treatment along with emotional support to help them seamlessly reintegrate into the vibrant community of Anandwan.",
+    fullStoryHindi: "हमारा कुष्ठ देखभाल केंद्र केवल चिकित्सा के बारे में नहीं है; यह आत्म-मूल्य की भावना को बहाल करने के बारे में है।",
+    fullStoryMarathi: "आमचे कुष्ठरोग निवारण केंद्र केवळ औषधोपचारापुरते मर्यादित नाही; ते स्वाभिमानाची भावना पुनर्संचयित करण्याबद्दल आहे.",
+    image: "/images/healthcare.jpg",
     category: "Hospital Care",
     year: "2021"
   }
@@ -128,6 +163,13 @@ export const aboutAnandwan = {
     expandedDescriptionMarathi: "आनंदवनातील शिक्षण प्रणाली समावेशक, व्यावहारिक आणि सशक्त करणारी आहे. पारंपरिक शिक्षणापेक्षा येथे केवळ शैक्षणिक ज्ञानावर नाही तर जीवनकौशल्ये आणि व्यावसायिक प्रशिक्षणावरही भर दिला जातो. दृष्टिहीन विद्यार्थ्यांसाठी स्पर्शाधारित (टॅक्टाइल) शिक्षण पद्धती वापरल्या जातात, तर श्रवणदोष असलेल्या विद्यार्थ्यांसाठी सांकेतिक भाषा आणि संवाद कौशल्यांवर विशेष लक्ष दिले जाते.\n\nपूर्वी, दिव्यांग व्यक्तींना शिक्षणाची संधी मिळत नव्हती आणि त्यांना मुख्य प्रवाहापासून दूर ठेवले जात होते. आज, आनंदवनात अंध, बहिरे आणि इतर दिव्यांग विद्यार्थ्यांसाठी विशेष शाळा चालवल्या जातात, ज्यामुळे त्यांना समान संधी मिळते. येथे शिक्षणाचा मुख्य भर पाठांतराऐवजी कौशल्य विकास, आत्मविश्वास आणि समाजात समावेश यावर आहे, ज्यामुळे विद्यार्थी स्वावलंबी बनतात.",
 
     image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800"
+    description: "Anandwan operates multiple schools catering to children of various needs, including a school for the blind and a school for the deaf. The education focuses not just on academics, but empowering them to lead independent lives.",
+    expandedDescription: "Beyond traditional classroom academics, the schools here emphasize vocational training, mobility independence, and confidence-building. Students organize science fairs, participate in cultural fests, and utilize sensory-adapted technologies to ensure that physical limitations never hinder intellectual growth.",
+    descriptionHindi: "आनंदवन विभिन्न आवश्यकताओं वाले बच्चों के लिए कई स्कूल संचालित करता है, जिनमें अंधों के लिए एक स्कूल और बहरों के लिए एक स्कूल शामिल है।",
+    descriptionMarathi: "आनंदवन विविध गरजा असलेल्या मुलांसाठी अनेक शाळा चालवते, ज्यामध्ये अंधांसाठी शाळा आणि बहिऱ्यांसाठी शाळा यांचा समावेश आहे।",
+    expandedDescriptionHindi: "पारंपरिक कक्षा शिक्षा के अलावा, यहाँ के स्कूल व्यावसायिक प्रशिक्षण, गतिशीलता स्वतंत्रता और आत्मविश्वास निर्माण पर जोर देते हैं।",
+    expandedDescriptionMarathi: "पारंपारिक वर्गातील शिक्षणापलीकडे, येथील शाळा व्यावसायिक प्रशिक्षण, गतिशीलतेचे स्वातंत्र्य आणि आत्मविश्वास निर्माण करण्यावर भर देतात।",
+    image: "/images/school.png"
   },
   {
     title: "Healthcare & Hospitals",
@@ -137,7 +179,7 @@ export const aboutAnandwan = {
     descriptionMarathi: "कुष्ठरोगी, अपंग व्यक्ती आणि सामान्य समुदाय आरोग्यसेवेसाठी समर्पित सुविधांनी सज्ज।",
     expandedDescriptionHindi: "आनंदवन में स्वास्थ्य देखभाल प्रणाली करुणा पर बनाई गई थी। इसमें विशेष कुष्ठ देखभाल इकाइयाँ, फिजियोथेरेपी केंद्र और सामान्य कल्याण क्लीनिक शामिल हैं।",
     expandedDescriptionMarathi: "आनंदवनमधील आरोग्य व्यवस्था करुणेवर आधारलेली आहे. यात विशेष कुष्ठरोग निवारण युनिट्स, फिजिओथेरपी सेंटर्स आणि जनरल वेलनेस क्लिनिक्सचा समावेश आहे।",
-    image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=800"
+    image: "/images/healthcare.jpg"
   },
   {
     title: "Handicrafts & Industries",
@@ -154,6 +196,13 @@ export const aboutAnandwan = {
     expandedDescriptionMarathi: "आनंदवनातील स्वावलंबी अर्थव्यवस्थेचा पाया म्हणजे येथील सामुदायिक उद्योग आहेत. कार्यशाळांमध्ये उच्च दर्जाच्या हातमाग साड्या, लाकडी फर्निचर आणि सुंदर चामड्याच्या वस्तू तयार केल्या जातात. योग्य संधी मिळाल्यास दिव्यांग व्यक्तीही उत्कृष्ट आणि अनोखे काम करू शकतात, याचे हे उत्तम उदाहरण आहे. येथे रहिवासी शेतीही करतात, स्वतःचे अन्न पिकवतात आणि उरलेले उत्पादन विकतात.\n\nपूर्वी, दिव्यांग व्यक्तींना रोजगाराच्या फार कमी संधी मिळत होत्या आणि ते दानावर अवलंबून होते. आज, आनंदवनात विविध उद्योग विकसित झाले आहेत जे लोकांना उत्पन्न मिळवण्यास, सर्जनशील काम करण्यास आणि स्वावलंबी होण्यास मदत करतात. हे उद्योग आर्थिक स्थैर्य देण्यासोबतच आत्मविश्वास आणि जीवनातील उद्देशाची भावना निर्माण करतात.",
 
     image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&q=80&w=800"
+    description: "The community features bustling workshops where residents create beautiful textiles, woodwork, greeted cards, and leather goods. This provides both rehabilitation and a sustainable livelihood.",
+    expandedDescription: "Anandwan thrives on self-reliance. The workshops produce high-quality handloom sarees, bespoke wooden furniture, and intricate leathercraft. Everything created is a testament to the fact that individuals with severe physical disabilities can produce unparalleled art when given the right opportunity.",
+    descriptionHindi: "समुदाय में हलचल भरी कार्यशालाएं हैं जहां निवासी सुंदर वस्त्र, लकड़ी का काम, ग्रीटिंग कार्ड और चमड़े के सामान बनाते हैं।",
+    descriptionMarathi: "समुदायात गजबजलेल्या कार्यशाळा आहेत जिथे रहिवासी सुंदर कापд, लाकडी काम, ग्रीटिंग कार्ड आणि चामड्याच्या वस्तू तयार करतात।",
+    expandedDescriptionHindi: "आनंदवन आत्मनिर्भरता पर पनपता है। कार्यशालाएं उच्च गुणवत्ता वाली हथकरघा साड़ी, लकड़ी के फर्नीचर और चमड़े के शिल्प का उत्पादन करती हैं।",
+    expandedDescriptionMarathi: "आनंदवन स्वावलंबनावर भरभराटीस येते. कार्यशाळांमध्ये उच्च दर्जाच्या हातमाग साड्या, लाकडी फर्निचर आणि चामड्याचे काम तयार केले जाते।",
+    image: "/images/artifact1.png"
   },
   {
     title: "Cultural Activities",
@@ -163,7 +212,7 @@ export const aboutAnandwan = {
     descriptionMarathi: "आनंदवनमधील जीवन संगीत, नाटक आणि कलेने साजरे केले जाते. प्रसिद्ध 'स्वरानंदवन' वाद्यवृंद प्रवास करतो आणि सादरीकरण करतो।",
     expandedDescriptionHindi: "'स्वरानंदवन' ऑर्केस्ट्रा में पूरी तरह से विकलांग कलाकार शामिल हैं। कई दृष्टिबाधित या शारीरिक रूप से अक्षम हैं, फिर भी वे पूरे भारत की यात्रा करते हैं।",
     expandedDescriptionMarathi: "'स्वरानंदवन' ऑर्केस्ट्रामध्ये पूर्णपणे अपंग कलाकार आहेत. अनेकजण दृष्टिहीन किंवा शारीरिकदृष्ट्या अक्षम आहेत, तरीही ते भारतभर प्रवास करतात।",
-    image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800"
+    image: "/images/rangmanch.png"
   },
     {
     title: "Community Living",
@@ -180,5 +229,12 @@ export const aboutAnandwan = {
     expandedDescriptionMarathi: "आनंदवनातील सामुदायिक जीवन ही त्याची मुख्य ओळख आहे, जिथे कोणीही एकटे राहत नाही. विविध पार्श्वभूमी, आजार आणि अपंगत्व असूनही सर्वजण एकत्र सन्मानाने राहतात. येथील सामाजिक रचना परस्पर सहकार्य आणि अवलंबनावर आधारित आहे, जिथे लोक एकमेकांना मदत करतात आणि जबाबदाऱ्या वाटून घेतात.\n\nपूर्वी, आजार किंवा अपंगत्व असलेल्या व्यक्तींना समाजापासून दूर ठेवले जात होते आणि त्यांना एकटे राहावे लागत होते. आज, आनंदवनात असे समावेशक वातावरण आहे जिथे प्रत्येक व्यक्ती महत्त्वाची आहे, सर्वजण योगदान देतात आणि कोणीही वगळलेले वाटत नाही. हे सामुदायिक जीवन लोकांच्या जीवनात आपलेपणा, आत्मविश्वास आणि उद्देशाची भावना निर्माण करते.",
 
     image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800"
+    description: "Here, no one is isolated. People from all backgrounds, regardless of their illnesses or disabilities, live together, dine together, and support each other like true family.",
+    expandedDescription: "The social fabric of Anandwan is built on mutual reliance. A visually impaired person might assist a physically disabled person with walking, while the physical disabled person acts as their eyes. It is a stunning, organic ecosystem of human support that destroys societal stigmas.",
+    descriptionHindi: "यहाँ कोई भी अलग-थलग नहीं है। सभी पृष्ठभूमि के लोग, उनकी बीमारियों या विकलांगताओं की परवाह किए बिना, साथ रहते हैं।",
+    descriptionMarathi: "येथे कोणीही वेगळे नाही. सर्व पार्श्वभूमीतील लोक, त्यांचे आजार किंवा अपंगत्व विचारात न घेता, एकत्र राहतात।",
+    expandedDescriptionHindi: "आनंदवन का सामाजिक ताना-बाना आपसी निर्भरता पर बना है। एक दृष्टिबाधित व्यक्ति चलते समय शारीरिक रूप से विकलांग व्यक्ति की सहायता कर सकता है।",
+    expandedDescriptionMarathi: "आनंदवनचे सामाजिक फॅब्रिक परस्पर अवलंबनावर बांधले गेले आहे. एखादी दृष्टिहीन व्यक्ती चालताना शारीरिकदृष्ट्या अपंग व्यक्तीला मदत करू शकते।",
+    image: "/images/community.png"
   }
 ];
