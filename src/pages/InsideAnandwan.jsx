@@ -92,12 +92,15 @@ const InsideAnandwan = () => {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
         {displayData.map((item, index) => (
           <div key={index} className="card expandable-card" style={{ display: 'flex', flexDirection: index % 2 === 0 ? 'row' : 'row-reverse', height: 'auto', overflow: 'hidden' }}>
-            <div className="img-wrapper" style={{ width: '40%' }}>
-              <img 
-                src={item.image} 
-                alt={item.title} 
-                style={{ width: '100%', height: '100%', minHeight: '300px', objectFit: 'cover' }} 
-              />
+            <div className="img-wrapper" style={{ width: '40%', display: 'flex', overflow: 'hidden' }}>
+              {item.images.map((img, imgIdx) => (
+                <img 
+                  key={imgIdx}
+                  src={img} 
+                  alt={`${item.title} ${imgIdx + 1}`} 
+                  style={{ width: '100%', height: '100%', minHeight: '400px', objectFit: 'cover' }} 
+                />
+              ))}
             </div>
             <div className="card-content" style={{ width: '60%', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
