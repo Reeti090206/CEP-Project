@@ -53,7 +53,11 @@ const StoryDetail = () => {
 
   return (
     <div className="container story-detail">
-      <img src={story.image} alt={story.title} className="story-header-img" />
+      <div className="story-header-images" style={{ display: 'grid', gridTemplateColumns: story.images.length > 1 ? '1fr 1fr' : '1fr', gap: '1rem', width: '100%', marginBottom: '2rem' }}>
+        {story.images.map((img, idx) => (
+          <img key={idx} src={img} alt={`${story.title} ${idx + 1}`} className="story-header-img" style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
+        ))}
+      </div>
 
       <div className="story-content">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', position: 'relative' }}>
